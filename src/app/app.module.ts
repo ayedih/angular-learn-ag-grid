@@ -4,10 +4,10 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { AgGridModule } from 'ag-grid-angular'
+import { AgGridModule } from "@ag-grid-community/angular";
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule,   AgGridModule.withComponents([])],
+  imports:      [ BrowserModule, FormsModule, AgGridModule.withComponents([])],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
