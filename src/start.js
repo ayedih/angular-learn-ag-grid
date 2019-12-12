@@ -5,7 +5,12 @@
   document.addEventListener(
     'DOMContentLoaded', function() 
     {
-       console.log('after DOMContentLoaded');
+
+      var gridDiv = document.querySelector('#myGrid');
+      var gridOptions = {};
+
+      new ag.grid.Grid(gridDiv, gridOptions);
+       console.log('gridDiv = ' + gridDiv);
 
     }
   )
